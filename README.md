@@ -39,12 +39,12 @@ using Playwright, Python, Pytest, and Allure Report.
 
 4. Run all tests:
 
-npx allure-commandline serve allure-results
+     pytest
 
 ## Allure Report
 Generate and open the report:
 
-   allure serve allure-results
+npx allure-commandline serve allure-results
 
 ## Project Structure
 - tests/ui/ - UI automation tests
