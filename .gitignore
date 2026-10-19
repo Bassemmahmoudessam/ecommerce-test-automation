@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+
+# Pytest and Allure results
+.pytest_cache/
+allure-results/
+allure-report/
+
+# Playwright output
+test-results/
+playwright-report/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
